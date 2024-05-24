@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    #container {
+      margin-top: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    button {
+      background-color: rgb(8, 143, 221);
+      width: 140px;
+      height: 38px;
+      font-size: 20px;
+      color: white;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+    }
+
+  
+    input {
+      width: 240px;
+      height: 30px;
+      font-size: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    
+    .tag1 {
+      height: 30px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tag {
+      background-color: rgb(22, 211, 22);
+      color: white;
+      font-size: 18px;
+      margin-left: 10px;
+      text-align: center;
+      margin-top: 4px;
+      padding: 5px 10px;
+      border-radius: 6px;
+    }
+
+    
+    #map {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 10px;
+    }
+
+    
+    #loc {
+      width: 300px;
+      background-color: #adc75b;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    
+    img {
+      width: 40px;
+      height: 40px;
+      margin-left: -10px;
+    }
+
+    
+    .logo, .logo1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
